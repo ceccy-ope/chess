@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    display: flex;
+    height: 30vh;
+    width: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+.square{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+#info{
+    height: 5rem;
+    font-size: 3rem;
+}
+.white, .black{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black{
+    background-color: black;
+}
+img{
+    height: inherit;
+    transition: 04s ease-in-out all;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(0.8);
+}
+
